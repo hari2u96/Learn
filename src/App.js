@@ -1,7 +1,7 @@
 import Products from "./Products.js";
 import "./App.css"
 import Home from "./Home"
-
+import Use from "./Use"
 function App() {
   return (
     <div>
@@ -18,6 +18,7 @@ function App() {
     price={120000}
     />
     <Home/>
+    <Use/>
     </div>
     
 
